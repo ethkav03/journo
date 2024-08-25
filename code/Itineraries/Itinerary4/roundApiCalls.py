@@ -117,7 +117,7 @@ def cFoodApiCall(location, time, startTime, endTime,  food_type, trip_id, day, a
     if not activities:
         activities = []
     # client = MongoClient(get_env_value('MONGO_URL'))
-    MONGO_URL = 'mongodb+srv://testUser:LL0TlwSJy97L4v41@cluster0.rvgahvn.mongodb.net/?retryWrites=true&w=majority'
+    MONGO_URL = ''
     client = MongoClient(MONGO_URL)
     db = client[location[0]]
     collection = db[location[1]]

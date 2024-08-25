@@ -8,7 +8,6 @@ db = client['Belgium']
 collection = db['Add']
 
 # Google Maps API configuration
-api_key = "AIzaSyAudMNmJ-wUGoZKtx61S3mh6GhvzBMCbHM"
 gmaps = googlemaps.Client(key=get_env_value('Gapi_key'))
 
 # Iterate through each item in the MongoDB collection

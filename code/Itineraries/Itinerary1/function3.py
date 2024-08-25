@@ -29,7 +29,7 @@ time_to_spend = {
 
 def apiCall(location, time, types, trip_id, day, activities, previous):
     # client = MongoClient(get_env_value('MONGO_URL'))
-    MONGO_URL = 'mongodb+srv://testUser:LL0TlwSJy97L4v41@cluster0.rvgahvn.mongodb.net/?retryWrites=true&w=majority'
+    MONGO_URL = ''
     client = MongoClient(MONGO_URL)
     db = client[location[0]]
     collection = db[location[1]]
